@@ -1,4 +1,4 @@
-baseurl: /ambulatory-guide
+baseurl: /ag
 
 exclude: ['README.md']
 
@@ -7,4 +7,4 @@ sass:
 
 permalink: pretty
 
-absolute: https://www.healthit.gov/ambulatory-guide/
+absolute: https://www.healthit.gov/ag/
