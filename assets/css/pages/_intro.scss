@@ -1,0 +1,84 @@
+.intro-wrap{
+	background: url(../img/bg-intro.jpg) no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding-top: 2em;
+	padding-bottom: 1.5em;
+}
+
+.intro-highlight{
+	color: $blue-highlight;
+}
+
+.btn-landing{
+	background-color: $blue-highlight;
+	background-position: 95%;
+	background-repeat: no-repeat;
+	border-radius: .25em;
+	display: block;
+	font-size: 1.2em;
+	font-family: raleway, sans-serif;
+	margin: .75em 0;
+	padding: 1.5em 5.5em 1.5em 1em;
+	position: relative;
+	text-decoration: none;
+	color: #fff;
+	transition: all .3s;
+	.section-title{
+		display: block;
+		font-weight: 700;
+		margin-bottom: .25em;
+	}
+}
+
+.btn-landing:hover{
+	background-color: $green;
+	background-image: url('../img/icon-arrow-green-right.png');
+	background-position: 95%;
+	background-repeat: no-repeat;
+	background-size: 2em;
+	color: $black;
+	text-decoration: none;
+	transition: all .3s;
+}
+
+
+@include breakpoint($medium-2){
+	.btn-landing{
+		background-size: 4em;
+		min-height: 7em;
+	}	
+}
+
+
+.btn-intro{
+	background-image: url('../img/btn-landing-intro.png');
+}
+
+.btn-guide{
+	background-image: url('../img/btn-landing-intro.png');
+}
+
+.btn-governance{
+	background-image: url('../img/btn-landing-intro.png');
+}
+
+.btn-quality{
+	background-image: url('../img/btn-landing-intro.png');
+}
+
+.btn-operations{
+	background-image: url('../img/btn-landing-intro.png');
+}
+
+.btn-standards{
+	background-image: url('../img/btn-landing-intro.png');
+}
+
+.btn-processes{
+	background-image: url('../img/btn-landing-intro.png');
+}
+
+.btn-share-feedback{
+	background-image: url('../img/btn-landing-intro.png');
+}
