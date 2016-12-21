@@ -1,4 +1,4 @@
-baseurl: /ag
+baseurl: /ambulatory-guide
 
 exclude: ['README.md']
 
