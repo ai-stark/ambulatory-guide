@@ -1,0 +1,56 @@
+.data-governance-billboard{
+	background-image: url('../img/placeholder_1400x700.png');
+	//background-position: 0% 30%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@include breakpoint($medium-2){
+	.chapter1-billboard{
+		background-position: 20% top;
+	}
+}
+
+.content{
+	max-width: 55em;
+	margin: 0px auto;
+	padding-left: .75em;
+	padding-right: .75em;
+}
+
+@include breakpoint($medium-2){
+	.content{
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+	}
+}
+
+.section-header h2{
+	margin-bottom: .25em;
+	margin-top: .75em;
+	font-size: 2em;
+}
+
+
+.section-number{
+	border: 1px solid $black;
+	border-radius: 3em;
+	display: block;
+	font-size: .8em;
+	height: 2.25em;
+	width: 2.25em;
+	text-align: center;
+	padding: .35em .5em;
+	margin-right: .5em;
+	margin-top: -.25em;
+}
+
+@include breakpoint ($large){
+	.section-number{
+		float: left;
+	}
+	.section-header h2{
+		font-size: 2.5em;
+	}	
+}
+
