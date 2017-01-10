@@ -27,69 +27,23 @@ navigation_weight: 15
 {% include billboard.html %}
 
 
-<div class="section-header">
+<div class="section">
 	<div class="content">
 		<div class="row">
 			<div class="grid-12">
 
-				<p><- insert content -></p>
-
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Slider -->
-<!--
-
-<div class="section-header" id-"slider-block">
-	<div class="content">
-		<div class="slide-wrap">
-			<div class="standards-slides-container">
-
-				<div class="slide" id="slide2" aria-hidden="false">
-					<div class="row">
-						<div class="grid-12">
-							<span><img class="slide-icon" src="{{site.baseurl}}/assets/img/vocabicon.png" alt=""></span>
-							<p><b>Vocabulary/Terminology standards: </b>Vocabulary standards determine how individual data elements are structured when they are recorded in software and represented in a transmission. For example, when a provider adds a temperature reading to a patient’s chart in an EHR system, the system will automatically link that reading to a “units of measure” standard, so if that information is passed along to another provider, the receiving provider will know that the number is either Celsius or Fahrenheit. Likewise, when a provider orders a medication for a patient, the system will automatically link the medication to an RxNorm code that will be electronically transmitted to the pharmacy. The RxNorm code enables a separate pharmacy IT system to interpret in a computable way the type of prescription intended to be dispensed.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="slide" id="slide3" aria-hidden="true">
-					<div class="row">
-						<div class="grid-12">
-							<span><img class="slide-icon" src="{{site.baseurl}}/assets/img/formaticon.png" alt=""></span>
-							<p><b>Format standards: </b>A single clinical data element like temperature or blood pressure is rarely shared electronically with another system for a patient. Typically a summary of clinical information such as medications, problems, allergies, and lab results is shared. When a health IT system receives this summary information, it has to be able to interpret it, which requires knowing what data will be in what locations, and the vocabulary standard(s) in which the data will be represented. This is done via format standards, like the Consolidated Clinical Document Architecture (C-CDA) standard, which specifies pre-defined summary of care document templates like continuity of care document or discharge summary.</p>
-						</div>	
-					</div>
-				</div>
-
-				<div class="slide" id="slide4" aria-hidden="true">
-					<div class="row">
-						<div class="grid-12">
-							<span><img class="slide-icon" src="{{site.baseurl}}/assets/img/transporticon.png" alt=""></span>
-							<p><b>Transport standards: </b>Transport standards are how the data gets from point A to point B. We use transport standards every day in the non-clinical world when we send emails. Prior to the adoption of these standards, individuals with a corporate e-mail account could not share emails with someone outside of their organization. Transport standards allow for the secure exchange of data across the internet, but each product has to follow the same transport standard or exchange will not occur. While some transport standards, like Direct are similar to email, other transport standards allow for more real-time connectivity, like APIs using the FHIR standard, which will allow a user’s software to make specific data requests on an as-needed basis.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="slide-nav" >
-				<ul class="slide-location">
-					<li><a href="" data-slide='1'>1</a></li>
-					<li><a href="" data-slide='2'>2</a></li>
-					<li><a href="" data-slide='3'>3</a></li>
+				<p>The Data Governance category primarily focuses on engaging staff members from across the practice in developing and maintaining good data management practices of patient demographic data.  Data Governance creates a shared responsibility for staff members by actively engaging them in creating policies, best practices, procedures, and work products that will help everyone in the practice improve the quality of patient demographic data.  Data Governance includes the following Process Areas:</p>
+				<ul>
+					<li><a href="#section1.1">Governance Management</a>: Focuses on activities that assist a practice with engaging all staff members to help make decisions.</li>
+					<li><a href="#section1.2">Communications</a>: Emphasizes timely and effective communications with staff members.</li>
+					<li><a href="#section1.3">Data Management Function</a>: Establishes a staff member(s) who is responsible for managing the data quality improvement process and can participate in the governance process.</li>
+					<li><a href="#section1.4">Business Glossary, Metadata, and Data Standards</a>: Develops a single set of patient demographic data elements, as well as the formats, standards, and rules around recording the data.</li>
 				</ul>
 
-				<a class="btn btn-previous" href="{{site.baseurl}}/chapter-1"><span aria-hidden="true">&larr;</span> Previous</a>
-				<a class="btn btn-next" href="{{site.baseurl}}/chapter-1">Next <span aria-hidden="true">&rarr;</span></a>
 			</div>
 		</div>
 	</div>
 </div>
--->
-<!-- End Slider -->
 
 
 <div class="section-header" id="section1.1" name="section1.1">
@@ -102,13 +56,266 @@ navigation_weight: 15
 	</div>
 </div>
 
-<div class="section-header">
+<div class="section">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+
+				<div class="road-sign">
+					<div class="sign-title">
+						<span>Goal</span>
+					</div>
+					<span class="sign-content">CREATE A GOVERNANCE PROCESS THAT CAN TAKE RESPONSIBILITY AND OWNERSHIP FOR MANAGING AND SUPPORTING EACH COMPONENT OF THE PATIENT DEMOGRAPHIC DATA QUALITY FRAMEWORK.</span>
+				</div>
+
+				<h3>Summary</h3>
+				<p>A governance process can be useful for engaging staff members from across the practice in developing and managing each of the process areas in the PDDQ Framework.  Governance can take two forms, formal and informal.  Formal governance processes typically involve a committee with set roles, responsibilities, and regular meetings.  A committee may also have authority to implement processes and procedures and hold staff members accountable for following them.  Informal governance processes would be more ad hoc and focused on dealing with high priority issues, or may only include the individual(s) identified as fulfilling the data management role.  Informal governance likely would not include the authority to hold staff members accountable.  More formalized governance, however, helps facilitate collaborative decisions among staff members. Practices may realize the following benefits from implementing a governance process:</p>
+				<ul>
+					<li>Increased awareness and shared responsibility for data standards and quality;</li>
+					<li>Increased efficiency in creating and implementing policies, best practices, and procedures; and</li>
+					<li>Strengthened compliance with policies, best practices, and procedures.</li>
+				</ul>
+
+				<table>
+					<tr>
+						<th>Evaluation Questions</th>
+						<th>Best Practices/Implementation Guidance</th>
+					</tr>
+					<tr>
+						<td>
+							<p><strong>1.1.</strong> Is a data governance structure defined and established with assigned roles, responsibilities, and accountability?</p>
+						</td>
+						<td>
+							<p><strong>Small practices:</strong> Small practices will likely follow an informal governance process due to staff limitations.  Practices may find it useful to wrap governance responsibilities into the data management role (described in the Data Management Function process area), and have one individual who can take on the responsibility and management of creating the best practices, policies, and procedures and working with staff members to implement them.</p>
+							<p><strong>Medium-large practices:</strong> Medium and large practices may have more bandwidth to create a formalized governance process.  This would require appointing staff members (or asking for volunteers) from across the organization to participate in a standing committee.  With larger practices, it is important to ensure representation from across the practice.  For example, large practices may appoint an executive sponsor (i.e. CEO, CFO, CIO, etc.) who can lead the committee or appoint another staff member to lead it, and ensure that staff members from relevant areas are included, such as billing, clinical, and administrative.</p>
+						</td>
+					</tr>
+				</table>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section-header" id="section1.2" name="section1.2">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+				<h2><span class="section-number">1.2</span>{{ page.subnav[1].section-title }}</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section">
 	<div class="content">
 		<div class="row">
 			<div class="grid-12">
 			
-				<p><- insert content -></p>
+				<div class="road-sign">
+					<div class="sign-title">
+						<span>Goal</span>
+					</div>
+					<span class="sign-content">EFFECTIVELY COMMUNICATE POLICIES, BEST PRACTICES, AND PROCEDURES RELATED TO PATIENT DEMOGRAPHIC DATA TO ALL STAFF MEMBERS.</span>
+				</div>
 
+				<h3>Summary</h3>
+				<p>In an ambulatory practice, a wide range of staff may enter or edit patient demographic data, including: practice managers, front desk staff/registrars, medical assistants, clinicians, etc.  It is vitally important that any staff member who enters or edits patient demographic data be notified in a timely manner of any policies or procedures that affect how that data is captured.  If organizations follow best practices for communications, the following benefits can be realized:</p>
+				<ul>
+					<li>Staff will have a common understanding of which patient demographic data elements should be captured, the manner in which they should be captured, and how the data should be represented and maintained;</li>
+					<li>Essential understanding of the concepts of data quality management and its effect on patient safety will be reinforced with staff; and</li>
+					<li>Staff will receive advanced notice of changes that will impact their systems and workflows.</li>
+				</ul>
+
+				<table>
+					<tr>
+						<th>Evaluation Questions</th>
+						<th>Best Practices/Implementation Guidance</th>
+					</tr>
+					<tr>
+						<td>
+							<p><strong>1.1.</strong> Does the organization have a communications plan/strategy for informing staff members about changes to existing or new policies, procedures, and practices that impact the capture and maintenance of patient demographic data?</p>
+						</td>
+						<td>
+							<p><strong>Small practices:</strong> Small practices may have only a handful of staff members, so a communications plan may be as simple as having a planned weekly or bi-weekly touch base with staff members to communicate any changes.  Practices should also ensure that all staff members are appropriately trained when major changes are made that affect how they use the EHR/practice management system.</p>
+							<p><strong>Medium-large practices:</strong> Medium to large practices should establish a more formalized communications plan.  This likely can be accomplished at the practice manager or operations manager level.  Large practices that have executives, such as a CEO, CFO, CMO, or CIO should develop the communications plan at the executive level.  Whether developing the plan at the practice manager level or the executive level, there should be a high level of collaboration with all staff members to understand the communications methods that are most effective to staff members.  The executive level should collaborate with staff members from across the practice, including: billing, front desk/registrars, schedulers, medical assistants, nursing staff, care coordinators, clinicians, and any other staff members who enter or maintain patient demographic information.</p> 
+							<p>As these staff members work together, they may find that email may be most effective because staff check email on a regular basis.  In other practices, printed memos or even faxes (if there are multiple locations) may be most effective.  The communications plan should identify the topic to be communicated, the audience for each topic, the frequency of communication, and the method of communication that best fits each clinical context.  Medium and large practices should also implement a formal training plan that includes a schedule for refresher training of all staff members.</p>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<p><strong>1.2.</strong> How does the organization ensure that communications reach and appropriately inform the right staff members?</p>
+						</td>
+						<td>
+							<p>Based on the methods used for communication, practices can use multiple means to determine if their communications are reaching the appropriate staff members. If a practice is using email as the primary communication method, they can use read receipts to determine who has viewed the email.  If using a printed memo or fax, they can ask staff members to sign the memo after reading it to ensure all staff members have viewed the memo.  Whatever method a practice intends to use should be recorded in the communications plan. Practices should as staff members to provide feedback on the communications, so that adjustments can be made as needed to improve the effectiveness of the communications plan. </p>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<p><strong>1.3.</strong> Does the organization provide effective communications that ensure policies, procedures, and practice are followed?</p>
+						</td>
+						<td>
+							<p>This goes beyond ensuring receipt and viewing of communications about policies and best practices to ensuring that staff members have implemented the policy or best practice.  This is measuring the effectiveness of communications, so that the practice can adjust where needed to more effective methods.  After changing a policy or best practice, such as requiring a new patient demographic data element be recorded, the practice can review patient charts after the communication has been received to see if the new data element has been recorded.  These types of quality control measures help the practice identify communication methods that work or do not work.</p>
+						</td>
+					</tr>
+				</table>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section-header" id="section1.3" name="section1.3">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+				<h2><span class="section-number">1.3</span>{{ page.subnav[2].section-title }}</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+			
+				<div class="road-sign">
+					<div class="sign-title">
+						<span>Goal</span>
+					</div>
+					<span class="sign-content">IDENTIFY DATA MANAGEMENT RESOURCES (INDIVIDUALS) WHO ARE RESPONSIBLE FOR ENSURING THAT PATIENT DEMOGRAPHIC DATA IS MANAGED EFFECTIVELY.</span>
+				</div>
+
+				<h3>Summary</h3>
+
+				<p>Practices should identify one or more individuals who are responsible for overseeing its data quality efforts, including creating or contributing to policies, best practices, and procedures; managing quality assessments, including running regular reports; and sharing responsibility for data quality outcomes.  Smaller practices may only have one staff member who is able to perform this role, while larger organizations may be able to identify two or three staff members who can collectively manage the processes for improving data quality.  Practices that choose to identify a specific individual as the data manager, may see the following benefits:</p>
+				<ul>
+					<li>Raise awareness across the practice about data quality;</li>
+					<li>Have a single point of contact for staff members to engage with; and</li>
+					<li>Facilitate implementation of best practices.</li>
+				</ul>
+
+				<table>
+					<tr>
+						<th>Evaluation Questions</th>
+						<th>Best Practices/Implementation Guidance</th>
+					</tr>
+					<tr>
+						<td>
+							<p><strong>1.1.</strong> Has the organization identified an individual(s) responsible for standards, processes, and communications about quality efforts related to patient demographic data?</p>
+						</td>
+						<td>
+							<p><strong>Small practices:</strong> Small practices will likely identify one individual, such as the practice manager who will head up data quality activities as part of their job responsibilities.  In choosing the individual, the practice should consider the following:</p>
+								<ul>
+									<li>How much available time does the individual have?</li>
+									<li>Is the individual familiar with the EHR/practice management system and workflow?</li>
+									<li>Has the individual worked with the EHR/practice management vendor in the past in a troubleshooting capacity?</li>
+									<li>Does the individual understand and agree to the importance of quality patient demographic data?</li>
+									<li>Does the individual work well with front desk/registration staff?</li>
+								</ul>
+							<p>More advanced small practices may also consider the following:</p>
+								<ul>
+									<li>Does the individual have experience drafting and implementing new policies and procedures?</li>
+									<li>Does the individual have experience identifying best practices and modifying existing workflows?</li>
+									<li>Does the individual have experience conducting quality assessments of health data?</li>
+								</ul>
+	
+							<p><strong>Medium-large practices:</strong> Medium and large practices can likely identify multiple individuals who can take on the role of data management.  These practices may want to include individuals from across the staff, including IT (individuals who know the EHR/practice management system and can work with the vendor), practice managers or operations managers (who are skilled with developing policies, procedures, and best practices), and front desk staff/registrars (who are ultimately responsible for data entry).  In choosing the individuals that will lead up the data quality initiative, practices should ensure they have the right mix of knowledge and skill sets to lead the work.  Many of the same considerations small practices should keep in mind, will also be applicable to medium and large practices.</p>
+						</td>
+					</tr>
+				</table>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section-header" id="section1.4" name="section1.4">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+				<h2><span class="section-number">1.4</span>{{ page.subnav[3].section-title }}</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section">
+	<div class="content">
+		<div class="row">
+			<div class="grid-12">
+			
+				<div class="road-sign">
+					<div class="sign-title">
+						<span>Goal</span>
+					</div>
+					<span class="sign-content">CREATE AND MAINTAIN A BUSINESS GLOSSARY AND ACCOMPANYING METADATA, SO THAT STAFF MEMBERS WHO TOUCH AND USE PATIENT DEMOGRAPHIC DATA  UNDERSTAND WHAT INFORMATION SHOULD BE CAPTURED AND THE FORMAT/STRUCTURE OR STANDARDS IT SHOULD BE CAPTURED IN.</span>
+				</div>
+
+				<h3>Summary</h3>
+
+				<p>In the context of patient demographic data, a business glossary is the list of patient demographic data elements that are used for: matching patient records (both for patient lookup and matching when records are exchanged electronically) and for identity proofing patients. Each data element will have a common definition of each data element. Business glossary data elements are the starting point for corresponding metadata, which is simply data or information about a data element.  Metadata includes the preferred or required format a data element should be captured in, rules about fields that capture data elements (for example, capturing suffix with last name or separately, or capturing date of birth as MM/DD/YYYY) and information about who has access to create or modify each data element, where it is stored, etc.  There are a number of benefits practices can realize by creating and maintaining a business glossary with corresponding metadata, including:</p>
+				<ul>
+					<li>Increased understanding and communication among staff members;</li>
+					<li>Foundation for developing data requirements or evaluating data requirements of new systems, should they change EHR/practice management systems;</li>
+					<li>Preparation for connecting with other systems such as a Health Information Exchange;</li>
+					<li>Preparedness for new quality controls, requirements imposed, or improvements in patient matching processes;</li>
+					<li>Starting place for uniformity in data collection processes across the practice; and</li>
+					<li>Improved data quality and consistency through agreement about definitions, values, and formats that can aid in quality and other reporting, research efforts, and patient matching efforts.</li>
+				</ul>
+
+				<table>
+					<tr>
+						<th>Evaluation Questions</th>
+						<th>Best Practices/Implementation Guidance</th>
+					</tr>
+					<tr>
+						<td>
+							<p><strong>1.1.</strong> Has the organization identified and recorded a set of patient demographic data elements?</p>
+						</td>
+						<td>
+							<p>Most EHR and practice management systems use a defined set of patient demographic data elements to match patient records. Practices should work collaboratively with their EHR vendors to understand what patient demographic data elements their system uses for matching patient records and the data elements the practice uses for identity proofing patients and build the same list of data elements into their business glossary.</p>
+							<p>Likewise, their EHR vendor may already have field requirements in the system around the format the data elements must be recorded in, and these requirements should be added to the business glossary as metadata.  If a practice’s EHR vendor does not have any requirements built into the system, the practice should work with staff to come to an agreement on the format that should be used for capturing data elements, for example, capturing date of birth as MM/DD/YYYY, or using the USPS address format.  These formats should align as closely as possible with the common data formats for elements.</p>
+							<p>In addition, staff should agree to using a standard entry for when data is unavailable, meaning using the same default fill data when a patient does not provide a data element, like an email address or phone number.  Once staff have agreed to the formats, they should be recorded in as metadata in the business glossary.</p>
+							<p>Finally, practices should review any federal requirements for format of patient demographic data elements, such as <a href="https://www.healthit.gov/policy-researchers-implementers/2015-edition-final-rule" target="_blank">ONC’s 2015 Edition criteria</a> and ensure that their business glossary aligns to those requirements.</p>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<p><strong>1.2.</strong> Does data governance for the business glossary require the use of data elements in system requirements, and the mapping of data elements?</p>
+						</td>
+						<td>
+							<p>Each vendor uses slightly different algorithms to match patient records together.  Each vendor may use a different set of data elements for their algorithms, or they may customize the data elements used to the geographic area the software has been implemented in.  For example, some geographic areas have a large number of patients with the same first and last name, making the middle name or other data elements more important for purposes of matching records.  Likewise, some practices, such as Federally Qualified Health Centers (FQHCs), serve a population that has less data elements for matching, which may affect how well their vendor’s matching algorithms work. Practices should work with their vendors to understand what the common set of data elements are that they use for matching and include them in their business glossary.</p>
+							<p>Further, some EHR/practice management vendors may have field checking capabilities that natively require users to enter specific data elements before the record can be saved or enter them in a specific format, such as MM/DD/YYYY for date of birth.  Practices should work with their vendors to ensure they understand system requirements and that those requirements are mapped to the business glossary.</p>
+							<p>Likewise, practices should notify their vendor of any culturally or contextually specific elements that may not have been considered when their algorithm was developed.  Ongoing communication and collaboration between practices and their vendor can improve the product and its processes over time.</p>
+							<p>Finally, there may be federal regulations that impact the patient demographic data that is captured and the format in which it should be captured.  For example, <a href="https://www.healthit.gov/policy-researchers-implementers/2015-edition-final-rule" target="_blank">ONC’s 2015 Edition certification criteria</a> include a requirement that when data is exchanged between practices, a core set of patient demographic data elements must be exchanged, and many of the data elements have a specified format.  Practices may also be required to capture specific demographics for federal or state grant programs.  Practices should review such requirements and map them to their business glossary.</p>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<p><strong>1.3.</strong> Does the practice participate in industry groups that are addressing emerging standards and best practices for patient demographic data elements?</p>
+						</td>
+						<td>
+							<p>A number of organizations and associations have put significant work into the challenge of accurately matching patient data and developing standards for patient demographic data elements.  These organizations have developed resources that may assist practices with creating and maintaining their business glossary. Organizations with a focus on patient matching include:<p>
+								<ul>
+									<li><a href="https://www.healthit.gov/" target="_blank">ONC</a></li>
+									<li><a href="http://www.ahima.org/" target="_blank">American Health Information Management Association (AHIMA)</a></li>
+									<li><a href="http://www.hl7.org/" target="_blank">Health Level Seven (HL7)</a></li>
+									<li><a href="http://www.ihe.net/" target="_blank">Integrating the Healthcare Enterprise (IHE)</a></li>
+									<li><a href="http://www.naham.org/" target="_blank">National Association of Healthcare Access Management (NAHAM)</a></li>
+									<li><a href="https://chimecentral.org/" target="_blank">College of Healthcare Information Management Executives (CHIME)</a></li>
+									<li><a href="http://www.wedi.org/" target="_blank">Workgroup for Electronic Data Interchange (WEDI)</a></li>
+								</ul>
+							<p>At a minimum, practices should be aware of the resources these organizations provide, even if they do not have staff members who can regularly participate with the organization.</p>
+						</td>
+					</tr>
+				</table>
+				
 			</div>
 		</div>
 	</div>

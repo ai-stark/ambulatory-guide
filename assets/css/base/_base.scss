@@ -96,3 +96,28 @@ h1, h2, h3, h4, h5, h6 {
 .margin-2-0{
 	margin: 2em 0em;
 }
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+	margin: 2em 0em;
+}
+
+table th:first-child{
+	width: 25%;
+}
+
+
+
+td,th{
+	border: 1px solid #ddd;
+	text-align: left;
+	padding: .7em;
+	vertical-align: baseline;
+	
+}
+
+th{
+	color: white;
+	background-color: $blue-light;
+}
