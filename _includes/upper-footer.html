@@ -15,7 +15,7 @@
 						{% unless forloop.last %}
 							<!-- forloop.index starts at one so this is displaying the page after current -->
 							<a class="btn btn-chapter" href="{{site.baseurl}}/{{ next_links[forloop.index].slug }}">
-								Go to {{ next_links[forloop.index].title }}<span aria-hidden="true"> &rarr;</span>
+								{{ next_links[forloop.index].title }}<span aria-hidden="true"> &rarr;</span>
 							</a>
 
 						{% endunless %}

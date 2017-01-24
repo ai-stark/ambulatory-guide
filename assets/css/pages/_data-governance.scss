@@ -1,12 +1,12 @@
 .data-governance-billboard{
-	background-image: url('../img/placeholder_1400x700.png');
+	background-image: url('../img/header-images/bg-data-governance.jpg');
 	//background-position: 0% 30%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 @include breakpoint($medium-2){
-	.chapter1-billboard{
+	.data-governance-billboard{
 		background-position: 20% top;
 	}
 }
@@ -14,8 +14,8 @@
 .content{
 	max-width: 55em;
 	margin: 0px auto;
-	padding-left: .75em;
-	padding-right: .75em;
+	padding-left: 0em; //.75
+	padding-right: 0em;
 }
 
 @include breakpoint($medium-2){

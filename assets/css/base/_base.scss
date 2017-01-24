@@ -97,27 +97,62 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 2em 0em;
 }
 
-table{
+
+
+table.desktop,
+table.mobile{
 	border-collapse: collapse;
 	width: 100%;
 	margin: 2em 0em;
 }
 
-table th:first-child{
+table.desktop th:first-child{
 	width: 25%;
 }
 
-
-
-td,th{
+.desktop td, 
+.desktop th{
 	border: 1px solid #ddd;
 	text-align: left;
 	padding: .7em;
 	vertical-align: baseline;
-	
 }
 
-th{
+
+.mobile th{
+	border: 1px solid #ddd;
+	text-align: left;
+	padding: .7em;
+	vertical-align: baseline;
+}
+
+.mobile td.question{
+	border-top: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: none;
+	border-left: 1px solid #ddd;
+	text-align: left;
+	padding: .7em;
+	vertical-align: baseline;	
+}
+
+.mobile td.answer{
+	border-top: none;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	text-align: left;
+	padding: .7em;
+	vertical-align: baseline;	
+}
+
+
+.desktop th,
+.mobile th{
 	color: white;
 	background-color: $blue-light;
+}
+
+.mobile .table-highlight{
+	background-color: #eee;
 }

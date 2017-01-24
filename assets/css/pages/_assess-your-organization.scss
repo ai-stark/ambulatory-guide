@@ -1,0 +1,12 @@
+.assess-organization-billboard{
+	background-image: url('../img/header-images/bg-assess-your-organization.jpg');
+	//background-position: 0% 30%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@include breakpoint($medium-2){
+	.assess-organization-billboard{
+		background-position: 20% top;
+	}
+}

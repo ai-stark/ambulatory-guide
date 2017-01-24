@@ -8,6 +8,16 @@
 	border-top: 0;
 }
 
+.social-no-back{
+	position: absolute;
+	background-color: transparent;
+	padding: .5em;
+	right: 1em;
+	top: .7em;
+	z-index: 20;
+	border-top: 0;	
+}
+
 .social-btn{
 	border: 2px solid transparent;
 	border-radius: .875em;
@@ -51,6 +61,10 @@
 	top: -0.5em;
 }
 
+.social-no-back .print-btn{
+	background-image: url("../../assets/img/icon-print-black.png");
+}
+
 .print-btn:hover{
 	border: 2px solid #FFFFFF;
 }
@@ -61,4 +75,8 @@
 
 .social a{
 	color: white;
+}
+
+.social-no-back a{
+	color: $black;
 }

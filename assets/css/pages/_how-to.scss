@@ -1,6 +1,14 @@
 .how-to-use-billboard{
-	background-image: url('../img/placeholder_1400x700.png');
-	//background-position: top center;
+	background-image: url('../img/header-images/bg-how-to.jpg');
+	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 150% auto;
+}
+
+@include breakpoint($medium-2){
+	.how-to-use-billboard{
+		//background-position: 0% 10%;
+		background-size: 75%;
+
+	}
 }
