@@ -41,10 +41,8 @@
 }
 
 .road-sign{
-	width: 25em;
-	float: right;
+	//float: right;
 	margin-top: .5em;
-	margin-left: 1em;
 	margin-bottom: 1em;
 	border: 1px solid $blue-light;
 	.sign-title{
@@ -58,18 +56,22 @@
 		text-align: center;
 		text-transform: uppercase;
 		display: block;
-		padding: 1em;
+		padding: .5em;
 		line-height: 1.4em;
 	}
 }
 
-
-
-
-/****************************************************
-					TEMPORARY STYLES
-****************************************************/
-
-.section ul{
-	background-color: lightgreen;
+@include breakpoint($medium){
+	.road-sign{
+		width: 25em;
+		float: right;
+		margin-top: .5em;
+		margin-left: 1em;
+		margin-bottom: 1em;
+		border: 1px solid $blue-light;
+		.sign-content{
+			padding: 1em;
+		}
+	}
 }
+

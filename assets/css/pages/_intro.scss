@@ -1,8 +1,39 @@
-.intro-billboard{
-	background: url(../img/placeholder_1400x700.png) no-repeat;
-	//background-position: 0% 30%;
+.intro-wrap{
+	padding: 50px 0px;
+	background: url(../img/header-images/bg-intro.jpg) no-repeat;
+	background-position: 0% 30%;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.healthit-logo{
+	position: absolute;
+	top: .5em;
+	left: .5em;
+}
+
+.cmmi-logo{
+	p{
+		margin: 0px;
+	}
+	img{
+		width: 50%;
+	}
+}
+
+
+
+.intro-billboard{
+	background: url('../img/header-images/bg-introduction.jpg');
+	background-position: 25% 10%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@include breakpoint($medium-2){
+	.intro-billboard{
+		background-position: 0% 10%;
+	}
 }
 
 .intro-highlight{
@@ -44,8 +75,8 @@
 
 @include breakpoint($medium-2){
 	.btn-landing{
-		background-size: 4em;
-		min-height: 7em;
+		background-size: 3em;
+		min-height: 4em;
 	}	
 }
 
@@ -59,23 +90,23 @@
 }
 
 .btn-governance{
-	background-image: url('../img/btn-landing-intro.png');
+	background-image: url('../img/btn-data-governance.svg');
 }
 
 .btn-quality{
-	background-image: url('../img/btn-landing-intro.png');
+	background-image: url('../img/btn-data-quality.svg');
 }
 
 .btn-operations{
-	background-image: url('../img/btn-landing-intro.png');
+	background-image: url('../img/btn-data-operations.svg');
 }
 
 .btn-standards{
-	background-image: url('../img/btn-landing-intro.png');
+	background-image: url('../img/btn-platform-and-standards.svg');
 }
 
 .btn-processes{
-	background-image: url('../img/btn-landing-intro.png');
+	background-image: url('../img/btn-supporting-processes.svg');
 }
 
 .btn-share-feedback{

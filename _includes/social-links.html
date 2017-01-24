@@ -1,4 +1,4 @@
-<div class="social">
+<div class="{% if page.title == "Landing Page" %}social-no-back{% else %}social{% endif %}">
 
 	<a href="https://www.facebook.com/sharer/sharer.php?u={{site.absolute}}{{page.slug}}" class="social-btn facebook-btn" target="_blank" rel="noopener noreferrer" aria-label="Share this page on Facebook"></a>
 
@@ -9,4 +9,11 @@
 	<a href="javascript:window.print()" class="print-btn">Print</a>
 	
 </div>
+
+
+
+
+
+
+
 
