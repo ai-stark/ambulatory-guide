@@ -1,5 +1,6 @@
 <!-- get list of only the pages with an html extention and put them in navigation order-->
 {% assign next_links = site.html_pages | sort: 'navigation_weight' %}
+{% assign cut_last_two_pages =  next_links | size | minus: 2 %}
 
 <div class="content upper-footer">
 	<div class="row">
@@ -8,11 +9,12 @@
 				<p class="text-center">
 				
 				
+
 				{% for n in next_links %}
 					<!-- find the currently displayed page -->
 					{% if n.title == page.title %}
 						<!-- only enter if this is not the last page -->
-						{% unless forloop.last %}
+						{% unless forloop.index > cut_last_two_pages %}
 							<!-- forloop.index starts at one so this is displaying the page after current -->
 							<a class="btn btn-chapter" href="{{site.baseurl}}/{{ next_links[forloop.index].slug }}">
 								{{ next_links[forloop.index].title }}<span aria-hidden="true"> &rarr;</span>
