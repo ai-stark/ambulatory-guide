@@ -6,7 +6,11 @@
 
 	<a href="https://twitter.com/intent/tweet?text={{page.twitter | url_encode }}%20{{site.absolute}}{{page.slug}}%20via%20@ONC_HealthIT" class="social-btn twitter-btn" target="_blank" rel="noopener noreferrer" aria-label="Share this page on Twitter"></a>
 
+	{% if page.title != "Landing Page" %}
+
 	<a href="javascript:window.print()" class="print-btn">Print</a>
+
+	{% endif %}
 	
 </div>
 
