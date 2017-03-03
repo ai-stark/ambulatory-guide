@@ -9,11 +9,11 @@
 }
 
 .social-no-back{
-	position: absolute;
+	float: right;
 	background-color: transparent;
-	padding: .5em;
-	right: 1em;
-	top: .7em;
+	padding: 1em;
+	//right: 1em;
+	//top: .7em;
 	z-index: 20;
 	border-top: 0;	
 }
