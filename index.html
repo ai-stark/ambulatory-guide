@@ -7,100 +7,124 @@ title: Landing Page
 {% include social-links.html %}
 
 <div class="intro-wrap">
+
 	<div class="healthit-logo">
 		<a href="https://healthit.gov">
-			<img src="{{site.baseurl}}/assets/img/healthIT-logo.png" alt="">
+			<img src="{{site.baseurl}}/assets/img/healthIT-logo.png" alt="HealthIT.gov logo">
 		</a>
 	</div>
-	<div class="content">
-		<div class="row">
-			<div class="grid-12">
-				<p class="text-center">
-					<img src="/ambulatory-guide/assets/img/site-title-img.png" alt="">
-				</p>
-			</div>
-		</div>
-		
+
+	<div class="landing-page-content">
 
 		<div class="row">
-			<div class="grid-12">
-				<p><strong class="intro-highlight">The Patient Demographic Data Quality Framework (the PDDQ Framework)</strong> is a comprehensive model that provides detailed methods and processes for managing patient demographic data throughout its lifecycle.  The PDDQ is based on CMMI’s Data Management Maturity Model.</p>
-				<div class="cmmi-logo">
-					<p class="text-center">
-						<img src="/ambulatory-guide/assets/img/CMMI.png" alt="Logo for the CMMI Institute">
-					</p>
+			<div class="grid-3">
+
+				<div class="grid-12">
+					<a href="introduction" class="btn-landing btn-intro">
+						<span class="section-title">Introduction to the Ambulatory Guide</span>
+					</a>
 				</div>
-				<p><strong class="intro-highlight">The ambulatory guide</strong> has pulled out key items from the PDDQ Framework that are most applicable to ambulatory practices.  Use the ambulatory guide to make improvements in your practice’s workflows and processes to improve patient demographic data quality.</p>
-			</div>
+				<div class="grid-12">
+					<a href="how-to-use-this-guide" class="btn-landing btn-guide">
+						<span class="section-title">How to Use the Ambulatory Guide</span>
+					</a>
+				</div>
+			
+
+			
+				<div class="grid-12">
+					<a href="data-governance" class="btn-landing btn-governance">
+						<span class="section-title">Data Governance</span>
+					</a>
+				</div>
+				<div class="grid-12">
+					<a href="data-quality" class="btn-landing btn-quality">
+						<span class="section-title">Data Quality</span>
+					</a>
+				</div>
+			
+
+			
+				<div class="grid-12">
+					<a href="data-operations" class="btn-landing btn-operations">
+						<span class="section-title">Data Operations</span>
+					</a>
+				</div>
+				<div class="grid-12">
+					<a href="platform-and-standards" class="btn-landing btn-standards">
+						<span class="section-title">Platform and Standards</span>
+					</a>
+				</div>
+			
+
+		
+				<div class="grid-12">
+					<a href="supporting-processes" class="btn-landing btn-processes">
+						<span class="section-title">Supporting Processes</span>
+					</a>
+				</div>
+				<div class="grid-12">
+					<a href="assess-your-organization" class="btn-landing btn-assess">
+						<span class="section-title">Assess Your Organization</span>
+					</a>
+				</div>			
+				
+			</div> <!-- end left column-->
+
+
+
+
+			<div class="grid-7">
+				<div class="row">
+					<div class="grid-12">
+						<p class="text-center">
+							<img src="/ambulatory-guide/assets/img/site-title-img.png" alt="Patitient Demographic Data Quality: Ambulatory Guidance title">
+						</p>
+					</div>
+				</div>
+			
+
+				<div class="row">
+					<div class="grid-12"> 
+						<p><strong class="intro-highlight">The Patient Demographic Data Quality Framework (the PDDQ Framework)</strong> is a comprehensive model that provides detailed methods and processes for managing patient demographic data throughout its lifecycle.  The PDDQ is based on CMMI’s Data Management Maturity Model.</p>
+						<div class="cmmi-logo">
+							<p class="text-center">
+								<img src="/ambulatory-guide/assets/img/CMMI.png" alt="Logo for the CMMI Institute">
+							</p>
+						</div>
+						<p><strong class="intro-highlight">The ambulatory guide</strong> has pulled out key items from the PDDQ Framework that are most applicable to ambulatory practices.  Use the ambulatory guide to make improvements in your practice’s workflows and processes to improve patient demographic data quality.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="grid-12">
+						<img src="{{ site.baseurl }}/assets/img/PDDQ_intro_infographic.png">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="grid-12">
+						{% include join_conversation.html %}
+					</div>
+				</div>			
+			</div> <!-- end center column-->
+
+
+			<div class="grid-2">
+				
+			</div> <!-- end right column--> 
+
+			
+
 		</div>
-		
-		
-			<div class="grid-6">
-				<a href="introduction" class="btn-landing btn-intro">
-					<span class="section-title">Introduction to the Ambulatory Guide</span>
-				</a>
-			</div>
-			<div class="grid-6">
-				<a href="how-to-use-this-guide" class="btn-landing btn-guide">
-					<span class="section-title">How to Use the Ambulatory Guide</span>
-				</a>
-			</div>
-		
 
-		
-			<div class="grid-6">
-				<a href="data-governance" class="btn-landing btn-governance">
-					<span class="section-title">Data Governance</span>
-				</a>
-			</div>
-			<div class="grid-6">
-				<a href="data-quality" class="btn-landing btn-quality">
-					<span class="section-title">Data Quality</span>
-				</a>
-			</div>
-		
-
-		
-			<div class="grid-6">
-				<a href="data-operations" class="btn-landing btn-operations">
-					<span class="section-title">Data Operations</span>
-				</a>
-			</div>
-			<div class="grid-6">
-				<a href="platform-and-standards" class="btn-landing btn-standards">
-					<span class="section-title">Platform and Standards</span>
-				</a>
-			</div>
-		
-
-	
-			<div class="grid-6">
-				<a href="supporting-processes" class="btn-landing btn-processes">
-					<span class="section-title">Supporting Processes</span>
-				</a>
-			</div>
-			<div class="grid-6">
-				<a href="assess-your-organization" class="btn-landing btn-assess">
-					<span class="section-title">Assess Your Organization</span>
-				</a>
-			</div>
-		
-
-		<div class="row">
-			<div class="grid-12">
-				{% include join_conversation.html %}
-			</div>
-		</div>
-	
 	</div>
+
 </div>
 
-		<div class="row">
-			<div class="grid-12">
-				{% include footer.html %}
-			</div>
-		</div>
 
-
-
-
+<div class="row">
+	<div class="grid-12">
+		{% include footer.html %}
+	</div>
+</div>
